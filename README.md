@@ -19,7 +19,7 @@ yarn compile
 ## Verify Contracts
 
 - Go to the BSC scan testnet and search address of contract was deployed to
-- Current deploy is proxy upgrades -> go to the `Contract` tab -> choose `Code` -> `is this Proxy` -> verify button -> verify implementation of proxy -> make `readable` function on Contract(deploy using proxy)
+- Current deploy is proxy upgrades -> go to the `Contract` tab -> choose `Code` -> `More Options` dropdown -> `Is this Proxy ?` -> verify button -> verify implementation of proxy -> make `readable` function on Contract(deploy using proxy)
 - `run` command `bash deployContract.sh` -> choose any differences task number (from 1 to 4)-> `hit` enter and paste address of `implementation` need to verify.
 - Back to the verify page of proxy -> hit `verify` button and see update verified
 
